@@ -1,0 +1,95 @@
+/* index- color del titulo, subtitulo y parrafos*/
+
+.titulo {
+    color: rgb(10, 80, 62);
+    text-align: center;
+    font-size: 40px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background-color: rgb(151, 131, 107);
+    
+}
+.subtitulo{
+    color: rgb(36, 27, 44);
+    text-align: center;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.contacto{
+    color: rgb(36, 27, 44);
+    text-align: left;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.sur{
+    color: rgb(36, 27, 44);
+    text-align: left;
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+/* parrafos */
+.parrafo{
+    color: rgb(8, 8, 8);
+    text-align: start;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+/* el atributo "class" es para reutilzar estilos en nuestro proyecto */
+/* relacion padre e hijos */
+
+div{
+    background-color: rgb(197, 155, 103);
+    font-size: 20px;
+}
+
+
+.enlaces{
+    text-align: center;
+    font-size: small;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif ;
+}
+/* aplicar estilo al menu de navegacion*/
+a{
+
+text-decoration: none;
+text-transform: uppercase;
+text-align: center;
+}
+/* estilos a lista para sacar los puntitos de la lista del menu de navegacion*/
+li{
+    list-style: none;
+}
+.enlaces{
+    text-align: center;
+    font-size: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.piedepagina{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: rgb(173, 171, 171)
+}
+main{
+    /* background-color white-space: ; */
+}
+.contenedor{
+        margin: 40px;
+        padding: 50px   ;
+        viewport-fit: 50;
+        border: black;
+        display: grid;
+        
+    
+}
+/* listas */
+.listasDesordenadas{margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-bottom: 5px;
+    
+
+}
+   
+
+
