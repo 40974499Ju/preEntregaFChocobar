@@ -12,28 +12,37 @@
 <body>
     <!-- ENCABEZADO -->
     <header class="container">
-        <nav>
-            <ul class="row  justify-content-center text-center p-2">
+        <img src="img/Blanco_y_Azul_Bokeh_Página_Web_Banner-removebg-preview.png" alt="logo de blessedlight" class="logo">
+        <div class="container-fluid">
+            <nav class="navbar navbar-expand-md navbar-light bg-light border-3 boder-bottom boder-primary">
+                <div class="container-fluid">
 
-                <div class="col-2">
-                    <li>
-                        <a href="index.html">home</a>
-                    </li>
+
                 </div>
-                <div class="col-2">
-                    <li><a href="norte.html">norte</a>
+                <div id="home" class="collapse navbar-collapse">
+                    <ul class="row  justify-content-center text-center p-2 navbar-nav ms-3">
+
+                        <div id="home" class="col-2 container-fluid ">
+                            <li>
+                                <a href="index.html" class="navbar-brand">home</a>
+                            </li>
+                        </div>
+                        <div class="col-2">
+                            <li><a href="norte.html">norte</a>
+                        </div>
+                        <div class="col-2">
+                            <li><a href="sur.html">sur</a></li>
+                        </div>
+                        <div class="col-2">
+                            <li><a href="viajes.html">viajes</a></li>
+                        </div>
+                        <div class="col-2">
+                            <li><a href="contacto.html">contacto</a></li>
+                        </div>
+                    </ul>
                 </div>
-                <div class="col-2">
-                    <li><a href="sur.html">sur</a></li>
-                </div>
-                <div class="col-2">
-                    <li><a href="viajes.html">viajes</a></li>
-                </div>
-                <div class="col-2">
-                    <li><a href="contacto.html">contacto</a></li>
-                </div>
-            </ul>
-        </nav>
+            </nav>
+        </div>
     </header>
     <main>
         <!-- TITULO Y SUBTITULO -->
@@ -56,24 +65,26 @@
                         voluptate libero. Vitae quod rerum eos qui at minus consequatur. Doloremque, corrupti.</p>
 
                 </div>
-                <div class="col-xl-4">
-                    <img width="300px" src="/img/auroraArbol.jpg" alt="imagen sobre luces del norte">
+                <div class="col-xl-4 text-center">
+                    <img width="300px" src="/img/auroraArbol.jpg" alt="imagen sobre luces del norte"
+                        class="img-fluid mx-auto d-block">
                 </div>
                 <div class="col-xl-4">
-                    <img width="300px" src="/img/auroraArbol.jpg" alt="luces del norte sobre el pueblo">
+                    <img width="300px" src="/img/auroraArbol.jpg" alt="luces del norte sobre el pueblo"
+                        class="img-fluid mx-auto d-block">
                 </div>
             </div>
             <div class="row">
-                <div class="col-xl-6">
+                <div class="col-xl-6 text-center">
                     <!-- VIDEO DE AURORA BOREAL-LUCES DEL NORTE -->
                     <h2 class="norte">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rerum, dolor..</h3>
                         <br><br>
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/WmIf1zE3l2w"
+                        <iframe width="500" height="500" src="https://www.youtube.com/embed/WmIf1zE3l2w"
                             title="YouTube video player" frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen></iframe>
                 </div>
-                <div class="col-xl-6">
+                <div class="col-xl-6 text-center">
 
                     <!-- UBUCACION DE LAS AURORAS EN EL MAPS -->
                     <h2 class="norte">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum, vel!</h2>
@@ -91,7 +102,7 @@
     </main>
     <script src="js/bootstrap.min.js"></script>
 </body>
-<footer>
+<footer class="piedepagina">
 
     <!-- aca van las redes sociales  -->
     <div class="container">
