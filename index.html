@@ -6,38 +6,44 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>blessedlight</title>
     <link rel="stylesheet" href="./estilos/estilo.css">
-    <link rel="stylesheet" href="./css/bootstrap-grid.min.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="https://getbootstrap.com/docs/5.3/assets/css/docs.css" rel="stylesheet"/>
+ 
 </head>
 
 <body>
-    <!-- ENCABEZADO -->
-    <header  class="container" >
-        <img src="./img/Blanco_y_Azul_Bokeh_Página_Web_Banner-removebg-preview.png" alt="logo de blessedlight" class="logo">
-        <div class="container-fluid">
-        <nav class="navbar navbar-expand-md navbar-light bg-light border-3 boder-bottom boder-primary">
-            <ul class="row  justify-content-center text-center p-2">
 
-                <div class="col-2">
-                    <li>
-                        <a href="index.html">home</a>
-                    </li>
+    <!-- ENCABEZADO -->
+    <header >
+        <nav class="navbar bg-dark navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid dark">
+                <img src="img/Blanco_y_Azul_Bokeh_Página_Web_Banner-removebg-preview.png" alt="logo de blessedlight" class="logo">
+               
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarScroll"
+                    aria-controls="navbarScroll" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <ul class="navbar-nav ms-auto my-2 my-lg-0 navbar-nav-scroll" style="--bs-scroll-height: 100px">
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">Norte</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">Sur</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" aria-disabled="true">Contacto</a>
+                        </li>
+                    </ul>
                 </div>
-                <div class="col-2">
-                    <li><a href="norte.html">norte</a>
-                </div>
-                <div class="col-2">
-                    <li><a href="sur.html">sur</a></li>
-                </div>
-                <div class="col-2">
-                    <li><a href="viajes.html">viajes</a></li>
-                </div>
-                <div class="col-2">
-                    <li><a href="contacto.html">contacto</a></li>
-                </div>
-            </ul>
+            </div>
         </nav>
-        </div>
+   
     </header>
     <main>
         <div class="container">
@@ -82,7 +88,7 @@
         </div>
 
     </main>
-    <script src="./js/bootstrap.min.js"></script>
+   <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 <!-- pie de pagina -->
 <footer class="piedepagina">
