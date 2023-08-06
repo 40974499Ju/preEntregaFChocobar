@@ -85,17 +85,7 @@ li{
 main{
     /* background-color white-spackue: ; */
 }
-.container{
-        margin: auto;
-        padding: auto   ;
-        height: auto;
-        viewport-fit: 50;
-        
-        
-        
-        
-    
-}
+
 /* listas */
 .listasDesordenadas{margin: 0;
     padding: 0;
